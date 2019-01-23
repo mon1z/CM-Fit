@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FitnessCare</string>
+    <!-- Action bar Strings -->
+    <string name="log_off">Log Off</string>
+</resources>
