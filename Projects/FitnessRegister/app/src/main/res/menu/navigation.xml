@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/ic_name"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/navigation_imc"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Cálculo IMC" />
+
+    <item
+        android:id="@+id/navigation_gymnasiums"
+        android:icon="@drawable/ic_ginasio"
+        android:title="Ginásios" />
+
+</menu>
