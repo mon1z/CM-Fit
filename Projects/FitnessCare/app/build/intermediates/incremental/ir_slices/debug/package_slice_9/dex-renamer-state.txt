@@ -1,0 +1,4 @@
+#Thu Jan 24 03:47:42 WET 2019
+base.0=/Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitnessCare/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
