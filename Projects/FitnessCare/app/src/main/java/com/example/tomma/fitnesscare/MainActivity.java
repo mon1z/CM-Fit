@@ -3,6 +3,9 @@ package com.example.tomma.fitnesscare;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.hardware.Sensor;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
     private EditText mail;
     private EditText pass;
 
+    // novos atributos para contagem dos passos, serviços
+    private TextView textView;
+    private StepDetector stepDetector;
+    private SensorManager sensorManager;
+    private Sensor sensorDetector;
+    private Sensor sensorCounter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.SplashTheme);
@@ -52,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
                 openRegister();
             }
         });
+        // intanciar os serviços
+        stepDetector = new StepDetector();
+        textView = (TextView) findViewById(R.id.totalPassos);
+        sensorManager= (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensorDetector= sensorManager.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR);
+        sensorCounter= sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
     }
 
 
@@ -96,6 +112,15 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         loadPreferences();
+        //verificar as mudanças dos passos
+        sensorManager.registerListener(stepDetector, sensorDetector, SensorManager.SENSOR_DELAY_NORMAL);// chamada  de sensor detector
+        sensorManager.registerListener(stepDetector,sensorCounter, 0);
+        //stepDetector.onSensorChanged(sensorCounter);
+    }
+    @Override
+    public void onStop(){
+        super.onStop();;
+        sensorManager.unregisterListener(stepDetector, sensorDetector);
     }
 
 
