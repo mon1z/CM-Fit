@@ -38,8 +38,8 @@ public class EditActivity extends AppCompatActivity {
     String getId;
     private Menu action;
 
-    private static final String URL_READ = "http://192.168.1.133/android_register_login/read_detail.php";
-    private static final String URL_EDIT= "http://192.168.1.133/android_register_login/edit_detail.php";
+    private static final String URL_READ = "https://projetocm.000webhostapp.com/read_detail.php";
+    private static final String URL_EDIT= "https://projetocm.000webhostapp.com/edit_detail.php";
 
 
     @Override
