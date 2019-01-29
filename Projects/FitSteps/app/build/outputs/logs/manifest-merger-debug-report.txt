@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9c09d06a98fe137a9e122b94c7eb0097/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9d3f61904b7c2ee5fd6131834a13e9df/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/555768c91f7f1ed2a67b6727bb655161/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6099a60296cbd2de8e953f0bdc594b96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ecf6da1251fe95df71ea8448ba715681/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/0724bf6aed341940bae6f5769ece2bbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b1504cc4c474c09db0675e5996f71ab6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cc5ba47d4f1d656c3bd3c5c204624437/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b3af37e82039908e1b0ec15357f8353c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3778760c26228c25b89cf0a7b45d0061/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/338312cc61941c92564531ecc96757aa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/eca2d9b71e382a56b04006cf64ba7caa/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.sensor.stepcounter
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:5:5-95
+	android:required
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:5:70-93
+	android:name
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:5:19-69
+uses-feature#android.hardware.sensor.stepdetector
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:7:5-96
+	android:required
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:7:71-94
+	android:name
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:7:19-70
+application
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:9:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9d3f61904b7c2ee5fd6131834a13e9df/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9d3f61904b7c2ee5fd6131834a13e9df/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.example.fitsteps.MainActivity
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9c09d06a98fe137a9e122b94c7eb0097/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9c09d06a98fe137a9e122b94c7eb0097/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9d3f61904b7c2ee5fd6131834a13e9df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/9d3f61904b7c2ee5fd6131834a13e9df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/555768c91f7f1ed2a67b6727bb655161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/555768c91f7f1ed2a67b6727bb655161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6099a60296cbd2de8e953f0bdc594b96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6099a60296cbd2de8e953f0bdc594b96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ecf6da1251fe95df71ea8448ba715681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ecf6da1251fe95df71ea8448ba715681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/0724bf6aed341940bae6f5769ece2bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/0724bf6aed341940bae6f5769ece2bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b1504cc4c474c09db0675e5996f71ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b1504cc4c474c09db0675e5996f71ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cc5ba47d4f1d656c3bd3c5c204624437/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cc5ba47d4f1d656c3bd3c5c204624437/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b3af37e82039908e1b0ec15357f8353c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b3af37e82039908e1b0ec15357f8353c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3778760c26228c25b89cf0a7b45d0061/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3778760c26228c25b89cf0a7b45d0061/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/338312cc61941c92564531ecc96757aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/338312cc61941c92564531ecc96757aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/eca2d9b71e382a56b04006cf64ba7caa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/andre.gastao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/eca2d9b71e382a56b04006cf64ba7caa/AndroidManifest.xml:20:5-44
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/src/main/AndroidManifest.xml

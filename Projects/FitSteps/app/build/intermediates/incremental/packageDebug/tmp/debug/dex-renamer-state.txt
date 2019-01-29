@@ -1,0 +1,4 @@
+#Mon Jan 28 08:40:41 WET 2019
+base.0=/Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

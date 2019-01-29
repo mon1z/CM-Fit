@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jan 28 08:40:57 WET 2019
+0.baseType=DIRECTORY
+0.base=/Users/andre.gastao/Documents/GitHub/CM-Fit/Projects/FitSteps/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.path=classes.dex
+0.set=DEX
+count=1
