@@ -244,9 +244,9 @@ public class EditActivity extends AppCompatActivity {
                 case R.id.navigation_gymnasiums:
                     startActivity(new Intent(EditActivity.this, MapsActivity.class));
                     return true;
-                /*case R.id.navigation_steps:
-                    startActivity(new Intent(MainMenuActivity.this, StepsActivity.class));
-                    return true;*/
+                case R.id.navigation_steps:
+                    startActivity(new Intent(EditActivity.this, StepsActivity.class));
+                    return true;
             }
             return false;
         }

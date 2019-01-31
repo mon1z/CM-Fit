@@ -67,7 +67,7 @@
 
     <Button
         android:id="@+id/registerBtn"
-        android:backgroundTint="@android:color/holo_blue_light"
+        android:backgroundTint="@color/colorPrimary"
         android:textColor="@android:color/white"
         android:text="Registar"
         android:layout_marginTop="30dp"

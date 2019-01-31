@@ -43,8 +43,8 @@ public class ImcActivity extends AppCompatActivity {
         BottomNavigationItemView navigationItem = findViewById(R.id.navigation_imc);
         BottomNavigationItemView navigationPerfil = findViewById(R.id.navigation_perfil);
         navigationItem.setChecked(true);
-        navigationItem.setTextColor(ColorStateList.valueOf(Color.parseColor("#00BFFF")));
-        navigationItem.setIconTintList(ColorStateList.valueOf(Color.parseColor("#00BFFF")));
+        navigationItem.setTextColor(ColorStateList.valueOf(Color.parseColor("#1BA1E2")));
+        navigationItem.setIconTintList(ColorStateList.valueOf(Color.parseColor("#1BA1E2")));
         navigationPerfil.setIconTintList(ColorStateList.valueOf(Color.parseColor("#333333")));
         navigationPerfil.setChecked(false);
 
@@ -149,9 +149,9 @@ public class ImcActivity extends AppCompatActivity {
                 case R.id.navigation_gymnasiums:
                     startActivity(new Intent(ImcActivity.this, MapsActivity.class));
                     return true;
-                /*case R.id.navigation_steps:
-                    startActivity(new Intent(MainMenuActivity.this, StepsActivity.class));
-                    return true;*/
+                case R.id.navigation_steps:
+                    startActivity(new Intent(ImcActivity.this, StepsActivity.class));
+                    return true;
             }
             return false;
         }

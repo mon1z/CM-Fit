@@ -11,10 +11,10 @@
 
     <ImageView
         android:id="@+id/logo"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:layout_marginBottom="30dp"/>
+        android:layout_width="284dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
 
     <android.support.design.widget.TextInputLayout
 
@@ -22,12 +22,13 @@
         android:layout_below="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <EditText
-            android:inputType="textEmailAddress"
-            android:hint="Email"
             android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -57,13 +58,14 @@
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_below="@+id/layoutPassword"
-        android:text="LOGIN"
-        android:backgroundTint="@android:color/holo_blue_light"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="LOGIN"
+        android:textColor="@android:color/white" />
 
     <TextView
         android:text="Não tem conta? Registe-se aqui"
