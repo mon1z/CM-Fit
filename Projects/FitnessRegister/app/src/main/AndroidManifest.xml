@@ -19,7 +19,6 @@
         <activity android:name=".ImcActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MapsActivity" />
-        <activity android:name=".MainMenuActivity"/>
         <activity android:name=".SplashActivity">
 
             <intent-filter>

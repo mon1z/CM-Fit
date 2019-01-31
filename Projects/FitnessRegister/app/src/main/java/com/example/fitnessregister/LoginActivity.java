@@ -92,7 +92,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                     sessionManager.createSession(name, email, id);
 
-                                    Intent intent = new Intent(LoginActivity.this, MainMenuActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, EditActivity.class);
                                     intent.putExtra("name", name);
                                     intent.putExtra("email", email);
                                     startActivity(intent);
@@ -133,5 +133,11 @@ public class LoginActivity extends AppCompatActivity {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        System.exit(0);
     }
 }

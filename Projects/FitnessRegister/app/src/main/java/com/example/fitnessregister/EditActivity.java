@@ -4,6 +4,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -37,6 +39,7 @@ public class EditActivity extends AppCompatActivity {
     SessionManager sessionManager;
     String getId;
     private Menu action;
+    BottomNavigationView navigation;
 
     private static final String URL_READ = "https://projetocm.000webhostapp.com/read_detail.php";
     private static final String URL_EDIT= "https://projetocm.000webhostapp.com/edit_detail.php";
@@ -64,6 +67,9 @@ public class EditActivity extends AppCompatActivity {
                 sessionManager.logout();
             }
         });
+
+        navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
     private void getUserDetail(){
@@ -216,14 +222,33 @@ public class EditActivity extends AppCompatActivity {
 
                 return true;
 
-            case R.id.menu_back:
-                startActivity(new Intent(EditActivity.this, MainMenuActivity.class));
-                return true;
-
             default:
 
                 return super.onOptionsItemSelected(item);
         }
 
     }
+
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.navigation_perfil:
+                    startActivity(new Intent(EditActivity.this, EditActivity.class));
+                    return true;
+                case R.id.navigation_imc:
+                    startActivity(new Intent(EditActivity.this, ImcActivity.class));
+                    return true;
+                case R.id.navigation_gymnasiums:
+                    startActivity(new Intent(EditActivity.this, MapsActivity.class));
+                    return true;
+                /*case R.id.navigation_steps:
+                    startActivity(new Intent(MainMenuActivity.this, StepsActivity.class));
+                    return true;*/
+            }
+            return false;
+        }
+    };
 }

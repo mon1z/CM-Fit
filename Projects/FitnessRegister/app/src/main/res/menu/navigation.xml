@@ -12,6 +12,11 @@
         android:title="Cálculo IMC" />
 
     <item
+        android:id="@+id/navigation_steps"
+        android:icon="@drawable/ic_steps"
+        android:title="Passos" />
+
+    <item
         android:id="@+id/navigation_gymnasiums"
         android:icon="@drawable/ic_ginasio"
         android:title="Ginásios" />

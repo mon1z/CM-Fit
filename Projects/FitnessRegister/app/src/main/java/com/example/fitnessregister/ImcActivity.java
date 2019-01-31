@@ -1,7 +1,15 @@
 package com.example.fitnessregister;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
+import android.support.annotation.NonNull;
+import android.support.design.internal.BottomNavigationItemView;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,12 +30,23 @@ public class ImcActivity extends AppCompatActivity {
     private char sexo;
     private RadioGroup rg;
     private RadioButton rb;
+    BottomNavigationView navigation;
 
-
+    @SuppressLint("RestrictedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imc_activity);
+
+        navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        BottomNavigationItemView navigationItem = findViewById(R.id.navigation_imc);
+        BottomNavigationItemView navigationPerfil = findViewById(R.id.navigation_perfil);
+        navigationItem.setChecked(true);
+        navigationItem.setTextColor(ColorStateList.valueOf(Color.parseColor("#00BFFF")));
+        navigationItem.setIconTintList(ColorStateList.valueOf(Color.parseColor("#00BFFF")));
+        navigationPerfil.setIconTintList(ColorStateList.valueOf(Color.parseColor("#333333")));
+        navigationPerfil.setChecked(false);
 
         calculateButton = findViewById(R.id.calculate_Button);
         rg = findViewById(R.id.radio_group_id);
@@ -42,7 +61,7 @@ public class ImcActivity extends AppCompatActivity {
                 String peso =  pes.getText().toString();
                 String altura = alt.getText().toString();
                 indiceMassa =  calcularImc(ParseDouble(peso), ParseDouble(altura)* 0.01);
-                imc.setText("IMC:  " + indiceMassa + verificarImc(indiceMassa));
+                imc.setText("IMC:  " + String.format("%.2f", indiceMassa) + verificarImc(indiceMassa));
             }
         });
     }
@@ -114,4 +133,27 @@ public class ImcActivity extends AppCompatActivity {
         }
         return "";
     }
+
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.navigation_perfil:
+                    startActivity(new Intent(ImcActivity.this, EditActivity.class));
+                    return true;
+                case R.id.navigation_imc:
+                    startActivity(new Intent(ImcActivity.this, ImcActivity.class));
+                    return true;
+                case R.id.navigation_gymnasiums:
+                    startActivity(new Intent(ImcActivity.this, MapsActivity.class));
+                    return true;
+                /*case R.id.navigation_steps:
+                    startActivity(new Intent(MainMenuActivity.this, StepsActivity.class));
+                    return true;*/
+            }
+            return false;
+        }
+    };
 }

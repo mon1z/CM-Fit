@@ -230,26 +230,4 @@ public class MapsActivity extends FragmentActivity implements
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.menu_action, menu);
-
-        action = menu;
-        action.findItem(R.id.menu_back).setVisible(true);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_back:
-                startActivity(new Intent(MapsActivity.this, MainMenuActivity.class));
-                return true;
-
-            default:
-
-                return super.onOptionsItemSelected(item);
-        }
-    }
 }
