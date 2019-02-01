@@ -235,9 +235,6 @@ public class EditActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_perfil:
-                    startActivity(new Intent(EditActivity.this, EditActivity.class));
-                    return true;
                 case R.id.navigation_imc:
                     startActivity(new Intent(EditActivity.this, ImcActivity.class));
                     return true;
