@@ -247,6 +247,9 @@ public class EditActivity extends AppCompatActivity {
                 case R.id.navigation_steps:
                     startActivity(new Intent(EditActivity.this, StepsActivity.class));
                     return true;
+                case R.id.navigation_yoga:
+                    startActivity(new Intent(EditActivity.this, YogaActivity.class));
+                    return true;
             }
             return false;
         }

@@ -9,7 +9,7 @@
     <item
         android:id="@+id/navigation_imc"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="Cálculo IMC" />
+        android:title="IMC" />
 
     <item
         android:id="@+id/navigation_steps"
@@ -20,5 +20,10 @@
         android:id="@+id/navigation_gymnasiums"
         android:icon="@drawable/ic_ginasio"
         android:title="Ginásios" />
+
+    <item
+        android:id="@+id/navigation_yoga"
+        android:icon="@drawable/ic_yoga"
+        android:title="Yoga" />
 
 </menu>

@@ -1,5 +1,6 @@
 package com.example.fitnessregister;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
@@ -25,6 +26,7 @@ public class StepsActivity extends AppCompatActivity implements SensorEventListe
     BottomNavigationView navigation;
     Sensor count;
 
+    @SuppressLint("RestrictedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,6 +100,9 @@ public class StepsActivity extends AppCompatActivity implements SensorEventListe
                     return true;
                 case R.id.navigation_gymnasiums:
                     startActivity(new Intent(StepsActivity.this, MapsActivity.class));
+                    return true;
+                case R.id.navigation_yoga:
+                    startActivity(new Intent(StepsActivity.this, YogaActivity.class));
                     return true;
             }
             return false;

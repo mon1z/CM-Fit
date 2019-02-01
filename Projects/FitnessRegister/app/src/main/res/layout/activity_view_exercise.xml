@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListExercises">
+
+    <TextView
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="24dp"
+        android:id="@+id/title"
+        android:text="Nome do Exercicio"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:src="@drawable/boat_pose"
+        android:layout_centerInParent="true"
+        android:id="@+id/detail_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/startBtn"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="START"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Suspicious0dp"
+        android:background="@color/colorPrimary"
+        android:shadowColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="50sp"
+        android:id="@+id/timer"
+        android:text="20"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/startBtn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

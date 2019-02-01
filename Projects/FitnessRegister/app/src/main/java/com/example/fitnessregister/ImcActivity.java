@@ -143,14 +143,14 @@ public class ImcActivity extends AppCompatActivity {
                 case R.id.navigation_perfil:
                     startActivity(new Intent(ImcActivity.this, EditActivity.class));
                     return true;
-                case R.id.navigation_imc:
-                    startActivity(new Intent(ImcActivity.this, ImcActivity.class));
-                    return true;
                 case R.id.navigation_gymnasiums:
                     startActivity(new Intent(ImcActivity.this, MapsActivity.class));
                     return true;
                 case R.id.navigation_steps:
                     startActivity(new Intent(ImcActivity.this, StepsActivity.class));
+                    return true;
+                case R.id.navigation_yoga:
+                    startActivity(new Intent(ImcActivity.this, YogaActivity.class));
                     return true;
             }
             return false;
