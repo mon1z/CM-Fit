@@ -23,7 +23,8 @@
         <activity android:name=".ImcActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MapsActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
