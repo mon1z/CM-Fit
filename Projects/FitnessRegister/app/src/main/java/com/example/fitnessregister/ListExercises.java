@@ -34,16 +34,16 @@ public class ListExercises extends AppCompatActivity {
 
     private void initData(){
         exerciseList.add(new Exercise(R.drawable.easy_pose, "Posição Fácil"));
-        exerciseList.add(new Exercise(R.drawable.cobra_pose, "Posição Cobra"));
-        exerciseList.add(new Exercise(R.drawable.downward_facing_dog, "Cão Virado para Baixo"));
-        exerciseList.add(new Exercise(R.drawable.boat_pose, "Posição Barco"));
+        exerciseList.add(new Exercise(R.drawable.cobra_pose, "Posição de Cobra"));
+        exerciseList.add(new Exercise(R.drawable.downward_facing_dog, "Adho Mukha Svanasana"));
+        exerciseList.add(new Exercise(R.drawable.boat_pose, "Posição de Barco"));
         exerciseList.add(new Exercise(R.drawable.half_pigeon, "Meio Pombo"));
         exerciseList.add(new Exercise(R.drawable.low_lunge, "Lunge baixo"));
         exerciseList.add(new Exercise(R.drawable.upward_bow, "Posição para cima"));
         exerciseList.add(new Exercise(R.drawable.crescent_lunge, "Posição crescente"));
-        exerciseList.add(new Exercise(R.drawable.warrior_pose, "Posição guerreiro"));
-        exerciseList.add(new Exercise(R.drawable.bow_pose, "Posição Vénia"));
-        exerciseList.add(new Exercise(R.drawable.warrior_pose_2, "Posição guerreiro 2"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose, "Posição de guerreiro 1"));
+        exerciseList.add(new Exercise(R.drawable.bow_pose, "Posição de Vénia"));
+        exerciseList.add(new Exercise(R.drawable.warrior_pose_2, "Posição de guerreiro 2"));
 
 
 
